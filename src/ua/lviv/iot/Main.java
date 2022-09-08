@@ -10,6 +10,6 @@ public class Main {
         tree.root = tree.insert(tree.root, 13);
         tree.root = tree.insert(tree.root, 42);
         tree.root = tree.insert(tree.root, 7);
-
+        tree.preOrder(tree.root);
     }
 }

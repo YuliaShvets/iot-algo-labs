@@ -75,4 +75,12 @@ public class AvlTree {
         return node;
     }
 
+    void preOrder(Node node) {
+        if (node != null) {
+            System.out.print(node.key + " ");
+            preOrder(node.left);
+            preOrder(node.right);
+        }
+    }
+
 }
